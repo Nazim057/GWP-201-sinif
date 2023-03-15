@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sele { 
+    text-align: center;
+}
+
+.s-1 {
+    height: 70vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first {
+    color: brown;
+}
+.last {
+    color: rgb(42, 89, 165);
+}
+.email {
+    color: rgb(42, 165, 67);
+}
+.password {
+    color: rgb(165, 157, 42);
+}
+
+input[type=radio] {
+    accent-color: rgb(72, 0, 255);
+}
+
+button {
+    background-color: chocolate;
+    padding: 7px 15px;
+    color: rgb(217, 255, 0);
+}
+
+button:hover {
+background-color: rgb(144, 135, 222);
+transition: all 0.4s;
+color: blue ;
+}
+
+input:focus {
+
+    background-color: black;
+    color: white;
+}
+
+
+input:focus::placeholder {
+    color: red;
+}
+
+label {
+    background-color: rgba(0, 255, 179, 0.44);
+}
+
+textarea { 
+    resize: none;
+}
+

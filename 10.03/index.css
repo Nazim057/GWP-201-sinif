@@ -1,0 +1,32 @@
+#S1 {
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#S1 input:focus {
+    background-color: rgb(127, 138, 255);
+    color: #fff;
+}
+#S1 input:focus::placeholder {
+color: red;
+}
+
+#S1 form button:hover {
+    background-color:red ;
+    color: #fff;
+}
+
+#S1 button:hover::placeholder {
+color: red;
+}
+
+#S1 button {
+    color:brown ;
+    background-color: aquamarine;
+} 
+
+
+
+
