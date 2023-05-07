@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+  padding: 10px 5%;
+  width: 100%;
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header ul i {
+  color: white;
+  padding: 8px 18px;
+}
+header ul i:hover {
+  color: black;
+  background-color: white;
+  border-radius: 8px;
+}
+header ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 18px;
+}
+header ul li a:hover {
+  color: black;
+  background-color: white;
+  border-radius: 8px;
+}
+
+section {
+  height: 100vh;
+}
+section .boxes {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border: 3px solid;
+}
+section .boxes div {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  border: 2px dotted;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 2s;
+}
+section .boxes div img {
+  display: none;
+  width: 200px;
+  height: 200px;
+}
+section .boxes div:hover {
+  transform: rotateX(360deg);
+}
+section .boxes div:hover img {
+  display: block;
+}
+section .boxes div:hover h1 {
+  display: none;
+}/*# sourceMappingURL=style.css.map */

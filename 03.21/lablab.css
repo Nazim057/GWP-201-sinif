@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    background-color: gray;
+}
+
+.header-div {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+header .header-div div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .header-div div img {
+    width: 100px;
+}
+
+header .header-div div nav ul {
+    display: flex;
+    column-gap: 50px;
+}
+
+header .header-div div div i {
+    position: relative;
+    left: -18px;
+}
+
+header .header-div div div label {
+    font-size: 17px;
+    margin-right: 5px;
+}
+
+header .header-div div div input {
+    padding: 4px 23px 3px 7px;
+}
+
+
+/* 1 section */
+#sec1 {
+    height: 80vh;
+    background-color:bisque;
+}
+
+#sec1 .header-div div {
+    display: flex;
+    justify-content: center;
+}
+
+#sec1 .header-div h1 {
+    /* display: inline-block; */
+    /* border:  solid ; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 13px ;
+    letter-spacing: 7px;
+    padding: 10px;
+    width: 200px;
+    border-color: red rgb(248, 5, 248) blue green;
+    /* border-width: 5px 20px; */
+    /* border-style: dotted dashed solid double; */
+    border-style: dotted;
+    border-radius: 20px;
+}
+
+#sec1 .header-div h2 {
+    display: flex;
+    justify-content: center;
+    width: 130px;
+    border-color: blue red ;
+    padding: 7px;
+    border-width: 4px;
+    border-style: dotted dashed solid double;
+}
+
+#sec1 .header-div h3 {
+    background-color: #DDFFFF;
+    border-left: 6px solid blue;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+#sec1 .header-div .p1 {
+    font-size: 40px;
+    color: rgb(0, 169, 169);
+}
+
+#sec1 .header-div .p1:hover {
+    font-size: 30px;
+    color: rgb(0, 20, 169);
+    background-color: cadetblue;
+    display: inline-block;
+    border-radius: 10px;
+    transition: all 0.5s;
+    margin-top: 10px;
+}
+
+
+#sec1 .header-div h4 {
+    font-size: 24px;
+}
+
+#sec1 .header-div h4 p {
+    display: inline-block;
+    font-size: 24px;
+    /* visibility: hidden; */
+}
+
+#sec1 .header-div h4 p:hover {
+    visibility: hidden;
+}
+
+
+
+/* section 2 */
+#sec2 {
+    height: 80vh;
+    background-color:gray;
+}
+
+#sec2 .header-div div #nəsə {
+    color: transparent;
+    padding: 4px 2px;
+}
+
+#sec2 .header-div div #nəsə:focus {
+    color: red;
+    font-size: 15px;
+    transition: all 0.7s;
+    background-color: yellow;
+}
+
+#sec2 .header-div div #nəsə::placeholder {
+    color: darkmagenta;
+}
+
+#sec2 .header-div div p {
+    color: darkmagenta;
+}
+
+
+
+/* section 3 */
+#sec3 {
+    /* height: 80vh; */
+    background-color:rgb(229, 16, 16);
+}
+#sec3 .header-div div div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    border: solid blue;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 20px;
+    /* height: 100px; */
+    color: darkmagenta;
+}
+
+#sec3 .header-div div div:nth-child(2n+1) {
+    background-color:gold;
+}
+
+

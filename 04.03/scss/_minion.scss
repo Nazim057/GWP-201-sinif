@@ -1,0 +1,79 @@
+#minion {
+  height: 120vh;
+  h1 {
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 80px;
+    &:after {
+      position: relative;
+      left: 45%;
+      content: "  ";
+      width: 10%;
+      height: 3px;
+      display: block;
+      background-color: yellow;
+    }
+  }
+  .row {
+    margin-top: 15px;
+
+    .div:nth-child(odd) {
+      background-color: #923e8b;
+      background-position: center;
+      background-size: cover;
+      transition: 0.4s;
+      height: 230px;
+      border: 1px dashed black;
+      h3 {
+        color: white;
+        height: 100%;
+        display: flex;
+        align-items: center;
+      }
+      &:hover {
+        background-image: url(../img/minion1.jpg);
+        background-size: cover;
+        background-position: center;
+        animation: minion 1s linear;
+        h3 {
+          display: none;
+        }
+      }
+    }
+    .div:nth-child(even) {
+      background-color: #1aab5c;
+      background-position: center;
+      background-size: cover;
+      transition: 0.4s;
+      height: 230px;
+      border: 1px dashed black;
+      h3 {
+        color: white;
+        height: 100%;
+        display: flex;
+        align-items: center;
+      }
+      &:hover {
+        background-image: url(../img/minion3.jpg);
+        background-size: cover;
+        background-position: center;
+        animation: minion 1s linear;
+        h3 {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@keyframes minion {
+  0% {
+    transform: rotateX(0deg);
+  }
+  50% {
+    transform: rotateX(90deg);
+  }
+  100% {
+    transform: rotateX(0deg);
+  }
+}

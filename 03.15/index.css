@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div, li {
+    margin: 3px;
+}
+
+nav ul div li {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid blue; 
+}
+
+nav ul {
+    display: flex;
+}
+
+#div5 {
+    /* display: flex; */
+}
+
+#div51, #div52 {
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid blue;
+}

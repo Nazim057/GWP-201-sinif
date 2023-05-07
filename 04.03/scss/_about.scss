@@ -1,0 +1,17 @@
+#about {
+  margin-top: 170px;
+  padding-bottom: 110px;
+  .container {
+    .metn {
+      display: grid;
+      gap: 30px;
+      width: 40%;
+    }
+    .user {
+      img {
+        width: 200px;
+      }
+    }
+  }
+
+}
